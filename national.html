@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Major League Baseball</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+</head>
+<body>
+    <!----- Header Section ----->
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/mlb_logo.webp" alt="MLB" style="max-width: 100px">
+                    Major League Baseball
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class = "navbar-nav" ms-auto>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="national.html">National League</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="american.html">American League</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <!----- Main Section ----->
+        <div class="container-fluid mt-4 mb-5 p-5">
+            <div class="row">
+                <!----- National League -->
+                <div class="col-sm">
+                    <h3>National League</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm fs-6 mt-2">
+                    <p>The National League has fifteen teams within three divisions.</p>
+                </div>
+            </div>
+            <!----- National League East -->
+            <div class="row">
+                <div class="col-sm pt-3 pt-5 pb-3">
+                    <h4>Teams by Division</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="table-responsive-sm">
+                    <table class="table table-borderless">
+                      <thead>
+                        <tr>
+                          <th>NL East</th>
+                          <th>NL Central</th>
+                          <th>NL West</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Atlanta Braves</td>
+                          <td>Milwaukee Brewers</td>
+                          <td>Los Angeles Dodgers</td>
+                        </tr>
+                        <tr>
+                          <td>Philadelphia Phillies</td>
+                          <td>Chicago Cubs</td>
+                          <td>Arizona Cardinals</td>
+                        </tr>
+                        <tr>
+                          <td>Miami Marlins</td>
+                          <td>Cincinnati Reds</td>
+                          <td>San Diego Padres</td>
+                        </tr>
+                        <tr>
+                          <td>New York Mets</td>
+                          <td>pittsburgh Pirates</td>
+                          <td>San Francisco Giants</td>
+                        </tr>
+                        <tr>
+                          <td>Washington Nationals</td>
+                          <td>St. Louis Cardinals</td>
+                          <td>Colorado Rockies</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <footer class="pt-4">
+              <p class="text-center col-sm">© 2024 Frank Berchoff, All Rights Reserved.</p>
+        </footer>
+    </div>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>
